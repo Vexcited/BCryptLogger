@@ -1,0 +1,6 @@
+LIBRARY bcrypt.dll
+EXPORTS
+	BCryptEncrypt=ProxyBCryptEncrypt
+	BCryptGenerateSymmetricKey=ProxyBCryptGenerateSymmetricKey
+	BCryptGenRandom=ProxyBCryptGenRandom
+	BCryptFinishHash=ProxyBCryptFinishHash
